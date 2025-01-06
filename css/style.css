@@ -1,13 +1,13 @@
 /* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #000000;
     margin: 0;
     padding: 0;
   }
   
   header {
-    background-color: #212529;
+    background-color: #000000;
     color: white;
   }
   
@@ -16,7 +16,7 @@ body {
   }
   
   .navbar-nav .nav-item .nav-link:hover {
-    color: #007bff !important;
+    color: #ff0000 !important;
   }
   
   /* Header and Logo */
@@ -44,12 +44,12 @@ body {
   
   .swatch:hover {
     transform: scale(1.1);
-    border-color: #007bff;
+    border-color: #910000;
   }
   
   /* Product Card */
   .card {
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     border-radius: 10px;
     overflow: hidden;
   }
@@ -70,25 +70,25 @@ body {
   
   .card-body p {
     font-size: 1rem;
-    color: #666;
+    color: #000000;
   }
   
   /* Button */
   .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #ff0000;
+    border-color: #ff0000;
     border-radius: 25px;
     padding: 10px 20px;
   }
   
   .btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
+    background-color: #880000;
+    border-color: #b30000;
   }
   
   /* Footer */
   footer {
-    background-color: #212529;
+    background-color: #000000;
     color: white;
     text-align: center;
     padding: 20px 0;
